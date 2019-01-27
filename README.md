@@ -15,7 +15,7 @@ Once html pages created, our `build-html` script will run some optimization step
 3. I'm using Documentation Builder to convert all markdown files to html, you can use any tool that converts to html.
 4. Update the `metadata.yaml` file for navigation and other meta data. For more information check [here](https://docs.ubuntu.com/documentation-builder/en/)
 5. Run the `build-html.sh` you should see a folder created `site-data` with all compiled html and static folder.
-6. Update `conf.yml` file with required options. For more information on conf.yml check here.
+6. Update `conf.yml` file with required options. For more information on conf.yml check [here](https://github.com/next-time-space/markdown-to-html-server#configuration).
 7. Start server using command, `java -jar markdown-to-html-server.jar`
 
 ## Configuration
