@@ -6,6 +6,8 @@ Effective way to publish your Markdown to a web app. This tool provides option t
 
 From markdown html pages can be created using [Documentation Builder](https://snapcraft.io/documentation-builder)
 
+Install documentation builder using snap or ubuntu software center.
+
 Once html pages created, our `build-html` script will run some optimization steps, to make the page optimized with common style sheets, adding SEO meta tags, or any other common tags on top of the page and get the `site-data` ready to be served as web app.
 
 ## Starting docs server
