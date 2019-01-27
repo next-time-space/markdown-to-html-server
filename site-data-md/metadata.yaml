@@ -1,0 +1,11 @@
+site_title: "Next Time Space Markdown to htm server Docs"
+site_footer_text: "© 2019 Next Time Space."
+site_favicon: "imgs/favicon.ico"
+navigation:
+    - title: Welcome Page
+      location: /docs/
+    - title: Getting Started
+      children:
+        - title: Installation
+          location: setup/install.md
+        - title: Analligence CDN

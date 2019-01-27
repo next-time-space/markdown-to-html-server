@@ -1,0 +1,10 @@
+http:
+  port: 8083
+  contextPath: /docs
+
+resources:
+  static: ./site-data/static
+  site-data: ./site-data
+  extension: .html
+  keep-exetension: false
+  

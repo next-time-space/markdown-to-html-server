@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+  <head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=cool"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'cool');
+</script>
+<meta property="og:image" content="https://analligence.nexttimespace.com/images/ogimage.png" />
+<meta property="og:title" content="Analligence Documentation" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta name="description" content="Documentation for for Analligence's business data collection analytics tool" />
+<meta property="og:description" content="Documentation for for Analligence's business data collection analytics tool" />
+<meta property="og:url" content="https://analligence.nexttimespace.com/docs/" />
+<meta property="og:site_name" content="Analligence Documentation" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebPage","headline":"Analligence Documentation","description":"Documentation for for Analligence's business data collection analytics tool","url":"https://analligence.nexttimespace.com/docs/"}
+</script>
+
+    
+
+    <meta charset="UTF-8" />
+    <title>Setup Markdown to htm server | Next Time Space Markdown to htm server Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/docs/kernal.css"/>
+  </head>
+
+  <body>
+    
+    <div class="docs-container">
+      <header id="navigation" class="p-navigation">
+        <div class="p-navigation__banner">
+          <div class="p-navigation__logo">
+            
+              
+              <h4>Next Time Space Markdown to htm server Docs</h4>
+            
+          </div>
+          <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+          <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+        </div>
+        <nav class="p-navigation__nav" role="menubar">
+          
+          
+          <span class="u-off-screen">
+            <a href="#main-content">Jump to main content</a>
+          </span>
+        </nav>
+      </header>
+      
+      <aside class="p-sidebar" id="navigation">
+        <div class="p-sidebar__banner u-hide--medium u-hide--large">
+          <i class="p-sidebar__toggle p-icon--menu"></i>
+        </div>
+        <div class="p-sidebar__content u-hide--small">
+          
+          <nav class="p-sidebar-nav">
+            <ul class="p-sidebar-nav__list">
+              
+              <li class="p-sidebar-nav__item first-level">
+                
+                  <a class="p-link--strong" href="/docs/">Welcome Page</a>
+                
+                
+              </li>
+              
+              <li class="p-sidebar-nav__item first-level">
+                
+                  <strong>Getting Started</strong>
+                
+                
+                <ul class="p-sidebar-nav__list">
+                  
+                    <li class="p-sidebar-nav__item">
+                      
+                        <a class="p-link--soft is-active" href="install">
+                      
+                      
+                        Installation
+                      
+                      
+                        </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="p-sidebar-nav__item">
+                      
+                      
+                        Analligence CDN
+                      
+                      
+                      
+                    </li>
+                  
+                </ul>
+                
+              </li>
+              
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      
+      <main class="p-content" id="main-content">
+        
+        <div class="p-strip is-shallow">
+          <div class="p-content__row">
+            <h1 id="setup-markdown-to-htm-server">Setup Markdown to htm server<a class="anchor" href="#setup-markdown-to-htm-server"></a></h1>
+<h2 id="prerequisites">Prerequisites<a class="anchor" href="#prerequisites"></a></h2>
+<ul>
+<li>JAVA 9 or</li>
+<li>Server or</li>
+<li>Java 9 in server as well?</li>
+</ul>
+<h2 id="how-to-start-java-application">How to start java application<a class="anchor" href="#how-to-start-java-application"></a></h2>
+<p>We can start <em>java</em> applications using command <code>java -j app.jar</code></p>
+<h2 id="how-to-stop-java-application">How to stop java application<a class="anchor" href="#how-to-stop-java-application"></a></h2>
+<ol>
+<li>We can stop using ctrl + z.</li>
+<li>We can do <code>ps -ef | grep java</code></li>
+</ol>
+          </div>
+        </div>
+        
+        <footer class="p-footer" role="contentinfo">
+          <div class="p-content__row u-no-margin--left">
+            <div class="col-12">
+              <p>
+                © 2019 Next Time Space.
+                
+              </p>
+              
+            </div>
+          </div>
+        </footer>
+      </main>
+      
+      <aside id="side-content" class="p-aside">
+        <nav class="p-aside__section">
+          <h4 class="p-aside__header">Contents</h4>
+          <nav class="p-aside__nav">
+            <ul class="p-list">
+              <li class="p-toc__item"><a class="p-toc__link" href="#prerequisites">Prerequisites</a></li>
+<li class="p-toc__item"><a class="p-toc__link" href="#how-to-start-java-application">How to start java application</a></li>
+<li class="p-toc__item"><a class="p-toc__link" href="#how-to-stop-java-application">How to stop java application</a></li>
+            </ul>
+          </nav>
+        </nav>
+      </aside>
+      
+    </div>
+    <script>
+      // Toggle mobile sidebar nav
+      var toggle = document.querySelector('.p-sidebar__toggle');
+      var sidebarContent = document.querySelector('.p-sidebar__content');
+
+      toggle.addEventListener('click', function(e) {
+        toggle.classList.toggle('p-icon--menu');
+        toggle.classList.toggle('p-icon--close');
+        sidebarContent.classList.toggle('u-hide--small');
+      });
+
+      // Add classes to links
+      var links = document.querySelectorAll('a');
+      links.forEach(function(link) {
+        var parentClass = link.parentNode.classList;
+        var ignoreNav = !(
+          parentClass.contains('p-navigation__logo') ||
+          parentClass.contains('p-navigation__link') ||
+          parentClass.contains('p-sidebar-nav__item') ||
+          parentClass.contains('p-inline-list__item')
+        );
+        if (link.hostname && link.hostname != location.hostname && ignoreNav) {
+          link.className += ' p-link--external';
+        }
+      });
+
+      function selectVersion(value) {
+        var href = value.replace(/.md$/, "");
+        location = href;
+      }
+    </script>
+  </body>
+</html>
