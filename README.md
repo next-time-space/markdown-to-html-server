@@ -2,6 +2,16 @@
 
 Effective way to publish your Markdown to a web app. This tool provides option to create html from markdown and start HTTP server to serve your Markdown pages.
 
+## Benifits
+
+* Provides light weight backend app.
+* Provide support to add generic SEO meta tags
+* Supports both desktop and mobile browser. Responsive pages.
+* Optimized style sheet.
+* Can make style changes easily.
+* Can be get  started in a min.
+
+
 ## Creating html pages
 
 From markdown html pages can be created using [Documentation Builder](https://snapcraft.io/documentation-builder)
